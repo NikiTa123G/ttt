@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <wrapper class="wrapper">
+      <div class="calculator">
+        <input type="range" name="range" min="1" max="50" step="1" value="10" class="range">
+        <div class="number">Количество пользователей: 10</div>
+        <div class="prise">Стоимость за 1 пользователя: 500р</div>
+        <div class="out_prise">Итоговая стоимость за 1 месяц: 5000р</div>
+        <input type="number" min="1" max="50" step="1" value="10" name="number" class="number_inp">
+      </div>    
+      <div class="popap_wrap">
+        <a href="#popap" class="popap_linck">поопап ссылка</a>
+        <div class="popap" id="popap">
+          <div class="popap_body">
+            <div class="popap_content">
+              <a href="#" class="clouce_btn cloce_popap">X</a>
+              <form action="#" class="form_container">
+                <input type="text" name="name" class="inp">
+                <input type="text" name="phone" class="inp">
+                <input type="text" name="email" class="inp">
+                <button type="submit" class="btn_submit">
+                  отправить
+                </button>
+                <div class="wrap_checkbox">
+                  <input type="checkbox" name="checkbox" id="checkbox_1" class="checkbox">
+                  <label for="checkbox_1">текст 1</label>
+                </div>
+                <div class="wrap_checkbox">
+                  <input type="checkbox" name="checkbox" id="checkbox_2" class="checkbox">
+                  <label for="checkbox_2">текст 1</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </wrapper>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
